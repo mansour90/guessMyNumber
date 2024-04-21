@@ -1,7 +1,6 @@
 const playBtn = document.querySelector('.btn-play');
 const loading = document.querySelector('.loading');
 
-
 playBtn.addEventListener('click', function () {
   setTimeout(() => {
     loading.style.display = 'grid';
@@ -10,8 +9,7 @@ playBtn.addEventListener('click', function () {
   setTimeout(() => {
     loading.style.display = 'none';
     loading.style.opacity = '0';
-    window.location.href = 'http://127.0.0.1:5500/startGame.html';
+    window.location.href =
+      'https://mansour90.github.io/guessMyNumber/startGame.html';
   }, 6500);
-  
 });
-
